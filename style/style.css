@@ -1,0 +1,195 @@
+.product{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: rgb(179, 76, 76);
+    padding: 5px;
+    box-sizing: border-box;
+}
+.product h2{
+    padding: 5px;
+    margin: 1px 1px 5px 1px;
+    height: 120px;
+    color: rgb(90, 87, 87);
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.navbar-brand img{
+    width: 100px;
+    border-radius: 50%;
+}
+.tops{
+    display: inline;
+}
+nav li{
+box-sizing: border-box;
+margin-right: 25px;
+border-radius: 10px;
+padding-top: 38px;
+padding-bottom: 38px;
+padding-right: 10px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(255, 255, 255);
+}
+.hero_6{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Righteous', cursive;
+    color: rgb(92, 104, 209);
+}
+.hero_6 button{
+    border-radius: 25px;
+    border: 1px solid rgb(23, 37, 33);
+    background-color: aquamarine;
+}
+.hero_6 a{
+    background-color: aquamarine;
+    border-radius: 25px;
+}
+.hero_6 a :hover{
+    background-color: rgb(58, 21, 33);
+    border-radius: 25px;
+}
+.hero_6 button :hover{
+    color: brown;
+    border-radius: 25px;
+    transition: all 1s;
+    text-decoration: none;
+    cursor: pointer;
+    height: 35px;
+}
+#services p{
+    height: auto;
+    padding-top: 80px;
+    margin: 5px;
+}
+#services h4{
+    height: auto;
+    padding-top: 80px;
+    margin: 5px;
+}
+.blood_pressure_img{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: all 1s;
+}
+.blood_pressure_img:hover{
+    box-shadow: 10px 10px 2px rgb(124, 17, 17);
+    cursor: pointer;
+    color: bisque;
+    transform-origin: center;
+}
+.chat{
+    color: antiquewhite;
+    background-color: rgb(197, 27, 27);
+    border-radius: 15px;
+    border: none;
+    width: 140px;
+    height: 50px;
+    margin: 20px 5px 5px 5px;
+    padding: 5px;
+    transition: all 1s;
+}
+.chat:hover {
+    width: 150px;
+    height: 60px;
+    box-shadow: 5px 5px 2px rgb(158, 158, 158);
+    cursor: pointer;
+    color: bisque;
+    transform-origin: center;
+    background-color: coral;
+}
+footer {
+    background-image: linear-gradient(to bottom left, rgb(87, 87, 102), rgb(221, 214, 214));
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    width: 100%;
+}
+.experience{
+    background-image: url(https://images.unsplash.com/photo-1628771065518-0d82f1938462?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGlsbHN8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+    height: 500px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1px 0px 1px 0px;
+}
+.family{
+    margin-top: 60px;
+    color: rgb(148, 33, 38);
+    font-family: 'Righteous', cursive;
+}
+.family_foot{
+    color: rgb(148, 33, 38);
+    font-family: 'Righteous', cursive;
+}
+.map{
+    text-align: center;
+    background-image: linear-gradient(to bottom left, rgb(255, 255, 255), rgb(160, 160, 160));
+}
+.branch{
+    font-size: 60px;
+    font-family: 'Righteous', cursive;
+    color: rgb(43, 40, 37);
+    margin: 5px;
+}
+.branches{
+    font-family: 'Righteous', cursive;
+    color: rgb(218, 123, 16);
+    margin: 5px;
+    font-size: 30px;
+}
+h4{
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    color: brown;
+    transition: all 1s;
+}
+h4:hover{
+    font-size: 31px;
+    font-family: 'Righteous', cursive;
+    color: rgb(105, 28, 28);
+    cursor: pointer;
+}
+.example-1{
+    position: relative;
+    overflow-y: scroll;
+    height: 600px;
+}
+h6{
+    font-family: 'Righteous', cursive;
+    font-size: 16px;
+    color: brown;
+}
+.copy{
+    font-size: 14px;
+    margin: 40px 20px 10px 20px;
+    color: black;
+}
+.card1{
+    text-align: center;
+margin-left: 360px;
+background-color: rgb(214, 213, 213);
+opacity: 0.8;
+border-radius: 17px;
+}
+h5{
+    color: brown;
+    font-family: 'Righteous', cursive;
+}
+.example-1 a{
+    padding: 5px 0px 5px 0px;
+    margin: 5px 0px 5px 0px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 90px;
+}
+.example-1 a:hover{
+    text-decoration: none;
+}
+.example-1 .num{
+    height: 40px;
+}
