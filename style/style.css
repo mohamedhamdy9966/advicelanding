@@ -43,7 +43,7 @@ padding-right: 10px;
 .hero_6 button{
     border-radius: 25px;
     border: 1px solid rgb(23, 37, 33);
-    background-color: aquamarine;
+    background-color:burlywood;
 }
 .hero_6 a{
     background-color: aquamarine;
@@ -76,11 +76,24 @@ padding-right: 10px;
     border-bottom-right-radius: 15px;
     transition: all 1s;
 }
+.partners{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: all 1s;
+    width: 550px;
+    height: 360px;
+}
 .blood_pressure_img:hover{
     box-shadow: 10px 10px 2px rgb(124, 17, 17);
     cursor: pointer;
     color: bisque;
     transform-origin: center;
+}
+.partners:hover{
+    box-shadow: 10px 10px 2px rgb(124, 17, 17);
+    cursor: pointer;
+    color: bisque;
+    transform-origin: center; 
 }
 .chat{
     color: antiquewhite;
@@ -101,6 +114,8 @@ padding-right: 10px;
     color: bisque;
     transform-origin: center;
     background-color: coral;
+    font-size: 17px;
+    font-weight: 700;
 }
 footer {
     background-image: linear-gradient(to bottom left, rgb(87, 87, 102), rgb(221, 214, 214));
@@ -110,8 +125,64 @@ footer {
     width: 100%;
 }
 .experience{
-    background-image: url(https://images.unsplash.com/photo-1628771065518-0d82f1938462?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGlsbHN8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
-    height: 500px;
+    background-image: url(/images/images/back.jpg);
+    height: 550px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1px 0px 1px 0px;
+}
+.beauty{
+    background-image: url(/images/images/beauty\ background.avif);
+    height: 550px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1px 0px 1px 0px;
+}
+.fitness{
+    background-image: url(/images/images/fitness\ background.avif);
+    height: 550px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1px 0px 1px 0px;
+}
+.nutrition{
+    background-image: url(/images/images/nutrition\ background.avif);
+    height: 550px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1px 0px 1px 0px;
+}
+.pregnancy{
+    background-image: url(/images/images/pregnancy\ background.avif);
+    height: 550px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1px 0px 1px 0px;
+}
+.baby{
+    background-image: url(/images/images/baby\ background.avif);
+    height: 550px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1px 0px 1px 0px;
+}
+.general_health{
+    background-image: url(/images/images/general\ health\ background.avif);
+    height: 550px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1px 0px 1px 0px;
+}
+.diabetes{
+    background-image: url(/images/images/diabetes\ background.avif);
+    height: 550px;
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -175,6 +246,55 @@ margin-left: 360px;
 background-color: rgb(214, 213, 213);
 opacity: 0.8;
 border-radius: 17px;
+background-image: linear-gradient(to bottom left, rgb(243, 244, 245), rgb(0, 217, 255));
+}
+.beauty_card{
+    text-align: center;
+    margin-left: 360px;
+    background-color: rgb(214, 213, 213);
+    opacity: 0.8;
+    border-radius: 17px;
+    background-image: linear-gradient(to bottom left, rgb(243, 244, 245), rgb(187, 19, 98));   
+}
+.diabetes_card{
+    text-align: center;
+    margin-left: 360px;
+    background-color: rgb(214, 213, 213);
+    opacity: 0.8;
+    border-radius: 17px;
+    background-image: linear-gradient(to bottom left, rgb(243, 244, 245), rgb(250, 153, 198));   
+}
+.fitness_card{
+    text-align: center;
+    margin-left: 360px;
+    background-color: rgb(214, 213, 213);
+    opacity: 0.8;
+    border-radius: 17px;
+    background-image: linear-gradient(to bottom left, rgb(243, 244, 245), rgb(8, 98, 233));   
+}
+.nutrition_card{
+    text-align: center;
+    margin-left: 360px;
+    background-color: rgb(214, 213, 213);
+    opacity: 0.8;
+    border-radius: 17px;
+    background-image: linear-gradient(to bottom left, rgb(243, 244, 245), rgb(152, 248, 160));   
+}
+.pregnancy_card{
+    text-align: center;
+    margin-left: 360px;
+    background-color: rgb(214, 213, 213);
+    opacity: 0.8;
+    border-radius: 17px;
+    background-image: linear-gradient(to bottom left, rgb(243, 244, 245), rgb(167, 167, 104));   
+}
+.baby_card{
+    text-align: center;
+    margin-left: 360px;
+    background-color: rgb(214, 213, 213);
+    opacity: 0.8;
+    border-radius: 17px;
+    background-image: linear-gradient(to bottom left, rgb(243, 244, 245), rgb(196, 196, 196));   
 }
 h5{
     color: brown;
@@ -193,3 +313,1389 @@ h5{
 .example-1 .num{
     height: 40px;
 }
+.business{
+    background-image: url(/images/images/business\ background.jpg);
+    height:900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card2{
+    opacity: 0.9;
+    background-color: transparent;
+    border: none;
+    color: white;
+    height: 600px;
+    border-radius: 10px;
+}
+.story{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+#about .card-title{
+    margin-bottom: 30px;
+}
+#secondaboutus{
+    padding: 15px;
+}
+.secondsectioncontainer{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Righteous', cursive;
+    color: brown;
+}
+.third_section{
+    background-image: url(/images/images/third\ section\ background.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 680px;
+}
+.first_pic{
+    width: 300px;
+    height: 200px;
+    background-color: brown;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 190px;
+    border-radius: 11px;
+}
+.first_pic img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+.second_pic{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(12, 182, 63);
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 60px;
+    border-radius: 11px;
+}
+.second_pic img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+.third_pic{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(182, 12, 131);
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 240px;
+    border-radius: 11px;
+}
+.third_pic img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+.Prespective{
+    font-family: 'Righteous', cursive;
+    color: brown; 
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 140px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+}
+.fourth_section{
+    background-image: url(/images/images/fourth\ section\ background.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.fourth_section_vision{
+    background-image: url(/images/images/fourth\ section\ vision\ background.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 650px;
+}
+.concept{
+    height: 640px;
+    margin: 20px;
+    padding: 20px;
+    color: rgb(150, 14, 14);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 500px;
+    font-size: larger;
+    font-weight: 450;
+}
+.idea{
+    height: 640px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(150, 14, 14);
+    border-radius: 5px;
+    width: 500px;
+    font-size: large;
+    font-weight: 200;
+}
+.idea_title{
+    color: rgb(255, 255, 255);
+}
+.vision{
+    background-image: url(/images/images/vision\ background.avif);
+    height:830px;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.mission{
+    height: 500px;
+    margin: 40px;
+    padding: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(150, 14, 14);
+    border-radius: 8px;
+    width: 600px;
+    font-size: larger;
+    font-weight: 250;
+    line-height: 280%;
+}
+.values{
+    height: 500px;
+    margin: 40px;
+    padding: 40px;
+    color: rgb(150, 14, 14);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    width: 600px;
+    font-size: larger;
+    font-weight: 250;
+    line-height: 250%;
+}
+.learn_more{
+    border: none;
+    background-color: transparent;
+    font-weight: 650;
+    font-size: larger;
+    color: brown;
+}
+.learn_more:hover{
+    color: rgb(126, 83, 83);
+}
+.learn_more_white{
+    border: none;
+    background-color: transparent;
+    font-weight: 650;
+    font-size: larger;
+    color: rgb(190, 183, 183);
+}
+.learn_more_white:hover{
+    color: rgb(126, 83, 83);
+}
+.ceo_background{
+    height: 535px;
+    width: 400px;
+    background-color: rgb(20, 129, 129);
+    margin: 50px 30px 30px 30px; 
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    padding-top: 40px 10px 40px 10px;
+    border-radius: 10px;
+}
+.ceo_img{
+    padding: 10px;
+    height: 520px;
+    width: 390px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.ceo_img:hover{
+    height: 530px; ;
+    width: 400px; ;
+}
+.ceo_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.ceo_card{
+    height: 300px;
+    width: 500px;
+    background-color:transparent;
+    margin: 50px 30px 30px 30px;   
+    padding: 10px;
+}
+.ceo_card h5{
+    margin: 10px 10px 30px 10px;
+    color: rgb(161, 140, 140);
+}
+.ceo_card h4{
+    margin: 10px 10px 30px 10px;
+}
+.ceo_card p{
+    margin: 10px 10px 30px 10px;
+    color: black;
+}
+.fourth_section_ceo{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+    height: 680px;
+}
+.face:hover{
+    color: #ffffff;
+    background-color: #2542c4;
+    border-color: #ffffff;
+  }
+  .twit:hover{
+    color: #05affd;
+    background-color: #ffffff;
+    border-color: #05affd;
+  }
+  .whats:hover{
+    color: #ffffff;
+    background-color: #00ff73;
+    border-color: #ffffff;
+  }
+  .insta:hover{
+    color: #ffffff;
+    background-color: #f807a8;
+    border-color: #ffffff;
+  }
+  .tiktok:hover{
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #ffffff;
+  }
+  .youtube:hover{
+    color: #ffffff;
+    background-color: #ff0000;
+    border-color: #ffffff;
+  }
+  .sub{
+    color: #ffffff;
+    background-color: brown;
+    border-color: #ffffff;
+  }
+  .slider{
+    width: 1350px !important;
+    height: 550px !important;
+  }
+  .our_services_cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px;
+    flex-wrap:wrap;
+  }
+  .our_partners_cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px;
+    flex-wrap:wrap;
+  }
+  .services_card{
+    border: 2px solid white;
+    height: 520px;
+    width: 600px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 1s;
+  }
+  .services_card:hover{
+    cursor: pointer;
+    width: 610px;
+    height: 530px;
+    box-shadow: gray 10px 10px 2px;
+  }
+  #free_home_delivery{
+    background-image: url(/images/images/free\ home\ delivery\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #free_nursing{
+    background-image: url(/images/images/free\ nurse\ background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 10%;
+  }
+  #blood_pressure{
+    background-image: url(/images/images/blood\ pressure\ background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 10%;
+  }
+  #blood_glucose{
+    background-image: url(/images/images/blood-glucose\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+  }
+  #imported_drugs{
+    background-image: url(/images/images/imported\ drugs\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30%;
+  }
+  #weight_measure{
+    background-image: url(/images/images/weight\ measure\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 10%;
+  }
+  #cosmotics{
+    background-image: url(/images/images/cosmotics\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #bonus{
+    background-image: url(/images/images/loyality\ background.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    background-position: 30%;
+  }
+  .service_card_heading{
+    background-color: brown;
+    color: white;
+    border-radius: 50px;
+    padding: 15px;
+    margin-top: 430px;
+  }
+  .service_card_heading:hover{
+    background-color: rgb(255, 255, 255);
+    color: brown;
+transition: all 1s;
+  }
+  .our_services_heading{
+    font-size: 60px;
+    font-family: 'Righteous', cursive;
+    color: brown;
+    margin: 5px;
+}
+.sucesspartners{
+    background-image: url(/images/images/partners\ background.avif);
+    height:600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:local;
+    text-align: center;
+}
+.num{
+    color: #085c24;
+    font-size: larger;
+}
+.sucesspartners h1{
+    margin: auto auto auto auto;
+    height: auto;
+    color: rgb(190, 147, 4);
+}
+.sucesspartners h6{
+    margin: 170px auto 50px auto;
+    height: auto;
+    color: black;
+}
+.Beauty{
+    margin: 50px 150px 25px 150px;
+}
+.beauty_pragraph{
+    color: rgb(0, 0, 0);
+    margin: auto 125px 20px 125px;
+    font-size: 20px;
+}
+.partners_card{
+    height: 150px;
+    width: 255px;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    transition: all 1s;
+  }
+  .partners_card:hover{
+    cursor: pointer;
+    zoom: 1.02;
+  }
+  .partners_card img{
+    width: 60%;
+    height: 60%;
+    border-radius: 5px;
+    transition: all 1s;
+  }
+  .partners_card img:hover{
+    width: 80%;
+    height: 80%;
+  }
+  .success_partners{
+    text-align: center;
+}
+h1{
+    font-family: 'Righteous', cursive;
+    font-weight: 900;
+}
+.offers{
+    background-image: url(/images/images/offers\ background.avif);
+    height:1220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:local;
+    text-align: center;
+}
+.gallery{
+    background-image: url(/images/images/gallery\ background.avif);
+    height:940px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:local;
+    text-align: center;
+}
+.offers_head{
+    color: brown;
+    background-color: antiquewhite;
+}
+.offers_card{
+    height: 220px;
+    width: 330px;
+    margin: 10px 5px 5px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 1s;
+    background-color: rgb(255, 255, 255);
+  }
+  .events_card1{
+    height: 510px;
+    width: 410px;
+    margin: 10px 5px 5px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 1s;
+    background-color: rgb(88, 69, 69);
+    background-image: url(/images/images/event2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70% 50%;
+    opacity: 0.6;
+  }
+  .events_card2{
+    height: 510px;
+    width: 410px;
+    margin: 10px 5px 5px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 1s;
+    background-color: rgb(88, 69, 69);
+    background-image: url(/images/images/event3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 50%;
+    opacity: 0.6;
+  }
+  .events_card3{
+    height: 510px;
+    width: 410px;
+    margin: 10px 5px 5px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 1s;
+    background-color: rgb(88, 69, 69);
+    background-image: url(/images/images/event4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80% 5%;
+    opacity: 0.6;
+  }
+  .careers_card1{
+    height: 330px;
+    width: 410px;
+    margin: 10px 5px 5px 5px;
+    padding: 25px;
+    border-radius: 5px;
+    transition: all 1s;
+    border: 1px solid;
+    text-align: center;
+    color: brown;
+  }
+  .careers_card2{
+    height: 330px;
+    width: 410px;
+    margin: 10px 5px 5px 5px;
+    padding: 25px;
+    border-radius: 5px;
+    transition: all 1s;
+    border: 1px solid;
+    text-align: center;
+    color: brown;
+  }
+  .careers_card3{
+    height: 330px;
+    width: 410px;
+    margin: 10px 5px 5px 5px;
+    padding: 25px;
+    border-radius: 5px;
+    transition: all 1s;
+    border: 1px solid;
+    text-align: center;
+    color: brown;
+  }
+  .careers_card1 h3{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Righteous', cursive;
+    color: #000000;
+  }
+  .careers_card2 h3{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Righteous', cursive;
+    color: #000000;
+  }
+  .careers_card3 h3{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Righteous', cursive;
+    color: #000000;
+  }
+  .careers_card1 p{
+    margin: 20px;
+    padding: 10px;
+    color: gray;
+  }
+  .careers_card2 p{
+    margin: 20px;
+    padding: 10px;
+    color: gray;
+  }
+  .careers_card3 p{
+    margin: 20px;
+    padding: 10px;
+    color: gray;
+  }
+  .offers_card:hover{
+    cursor: pointer;
+    zoom: 1.02;
+  }
+  .events_card1:hover{
+    cursor: pointer;
+    zoom: 1.02;
+    opacity: 1;
+  }
+  .events_card2:hover{
+    cursor: pointer;
+    zoom: 1.02;
+    opacity: 1;
+  }
+  .events_card3:hover{
+    cursor: pointer;
+    zoom: 1.02;
+    opacity: 1;
+  }
+  .our_offers_cards1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px 0px 230px 0px;
+    flex-wrap:wrap;
+  }
+  .our_offers_cards2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    flex-wrap:wrap;
+  }
+  .offers_card img{
+    border-radius: 5px;
+    transition: all 1s;
+  }
+  .store{
+    width: 100%;
+    height: 100%;
+ }
+ .store img{
+    width: 100%;
+    height: 100%;
+ }
+ .blog{
+    width: auto;
+    height: auto;
+ }
+ .tips_head{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(44, 109, 161);
+ }
+ .tips{
+    font-weight: 600;
+    color: rgb(165, 136, 7);
+ }
+ .tips_card{
+    border-radius: 5px;
+    background-color: antiquewhite;
+    width: auto;
+    height: auto;
+    text-align: center;
+ }
+ .blog_videos{
+    width: auto;
+    height: auto;
+    background-image: url(/images/images/blog\ videos\ background.avif);
+ }
+.event_head{
+    position:absolute;
+    color: white;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+.event1_head{
+    margin-top: 120px;
+    padding: 5px;
+    background-color: antiquewhite;
+    font-family: 'Righteous', cursive;
+    color: rgb(9, 48, 158);
+    border-radius: 90px;
+}
+.section_three{
+    background-image: linear-gradient(to top , rgb(60, 50, 61), rgb(170, 172, 170));
+    width: auto;
+    height: auto;
+}
+.sector_one{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    gap: 900px;
+}
+#team .sector_one{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 1px;
+    gap: 900px;
+}
+#team{
+    background-image: linear-gradient(to bottom right, rgb(224, 188, 29), rgb(20, 117, 196));
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+#team .sector_one{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 1px;
+    gap: 900px;
+}
+#team .more_works {
+    padding: 5px;
+    color: azure;
+    text-decoration: none;
+    background-color: rgb(225, 255, 255);
+    width: 250px;
+    height: 90px;
+    border-radius: 50px;
+    border: none;
+    font-size: 30px;
+}
+#team .more_works a{
+    color: rgb(17, 13, 51);
+}
+#team .hero_1 img{
+    width: 310px;
+    height: 310px;
+    margin: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transition: all 1s;
+}
+#team .hero_1 h3{
+    color:tomato ;
+}
+#team .hero_1 img:hover{
+    box-shadow: 20px 20px 2px tomato;
+    cursor: pointer;
+    transition: all 1s;
+    width: 350px;
+    height: 350px;
+}
+.sector_two{
+    display: flex;
+    justify-content:space-evenly;
+}
+.sector_two_careers{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+}
+.sector_two_careers p{
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+.sector_two_careers a{
+    width: 300px;
+    height: auto;
+}
+.hero_1{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.hero_1 p{
+    color: #b1afaf;
+}
+.hero_1 img{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transition: all 1s;
+}
+#team .hero_1 img{
+    width: 310px;
+    height: 310px;
+    margin: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transition: all 1s;
+}
+#team .hero_1 h3{
+    color:tomato ;
+}
+.hero_1 img:hover{
+    box-shadow: 20px 20px 2px rgb(122, 122, 122);
+    cursor: pointer;
+    transition: all 1s;
+    width: 350px;
+    height: 350px;
+}
+#team .hero_1 img:hover{
+    box-shadow: 20px 20px 2px tomato;
+    cursor: pointer;
+    transition: all 1s;
+    width: 350px;
+    height: 350px;
+}
+.hero_1 h3{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+.creers_line{
+    margin: 50px;
+    font-weight: 900;
+    font-size: larger;
+}
+.apply{
+    border-radius: 10px;
+    background-color: antiquewhite;
+    border: 1px solid gray;
+    padding: 5px;
+}
+.sector_two_careers:hover{
+background-color: brown;
+color: white;
+margin: 0px;
+padding: 5px;
+border-radius: 3px;
+transition: all 1s;
+cursor: pointer;
+}
+.apply:hover{
+background-color: white;
+transition: all 1s;
+font-weight: 600;
+}
+.apply{
+    background-color: brown;
+    font-weight: 400;
+}
+.log{
+    height: 350px;
+    text-align: left;
+    width: 500px;
+    margin: auto auto auto auto;
+    background-image: linear-gradient(120deg, rgb(139, 139, 139), rgb(255, 255, 255));
+    border-radius: 10px;
+    padding: 20px;
+}
+.login{
+    border-radius: 5px;
+    border: 1px solid white;
+    height: auto;
+    width: 70px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+.login:hover{
+    background-color: #6d87f7;
+}
+input[type=password]{
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 320px;
+}
+input[type=email]{
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 320px;
+}
+input[type=date]{
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 320px;
+}
+input[type=text]{
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 320px;
+}
+input[type=number]{
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 320px;
+}
+input[type=radio]{
+    margin-right: 5px;
+}
+input[type=radio]:hover{
+    cursor: pointer;
+}
+.ema{
+    margin-right: 50px;
+    width: 82px;
+}
+.txt{
+    margin-right: 50px;
+    width: 82px;
+}
+.check{
+    margin-right: 50px;
+    width: 82px;
+}
+.phone{
+    margin-right: 20px;
+    width: 110px;
+}
+.pass{
+    margin-right: 50px;
+    width: 80px;
+}
+input[type=checkbox]{
+    margin-left: 60px; 
+}
+.sign{
+    height: 600px;
+    text-align: left;
+    width: 500px;
+    margin: auto auto auto auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, rgb(197, 105, 240), rgb(233, 164, 99));
+    box-sizing: border-box;
+}
+#save_pass{
+    margin-left: 160px; 
+}
+.date{
+    margin-right: 50px;
+    width: 80px;
+}
+.signup_section{
+background-color: rgb(224, 216, 205);
+}
+#terms{
+    font-size: 14px;
+}
+#offers_via_ema{
+    font-size: 16px;
+}
+.gender{
+    margin-right: 25px;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: brown; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 7px; /* Some padding */
+    border-radius: 100%; /* Rounded corners */
+    font-size: 15px; /* Increase font size */
+  }
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  .slider_home{
+    padding: 0px !important;
+  }
+  /* Columns */
+  div.dropdown-multicol2{
+    width: 71.5em;
+    font-family: 'Righteous', cursive;
+    background-image: linear-gradient(150deg , rgb(157, 222, 252) , rgb(255, 168, 118));
+  }
+  div.dropdown-multicol2>div.dropdown-col{
+    display:inline-block;
+    width: 19%;
+  }
+  div.dropdown-brands{
+    width: 1000px;
+    background-image: linear-gradient(120deg , rgb(253, 131, 131) , violet);
+    font-family: 'Righteous', cursive;
+  } 
+  div.dropdown-brands>div.dropdown-col{
+    display:inline-block;
+    width: 24%;
+  }
+  .categories_container{
+    width: 1260px;
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  .categories_container2{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0px !important;
+    margin-bottom: 0px !important;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    gap: 15px;
+  }
+  .right_section_category{
+   padding-right: 25px;
+   padding-left: 25px;
+  }
+  .right_section_category h5{
+    height: 40px;
+    width: 235px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px; 
+  }
+  .right_section_category h5 a .side_bar_link{
+    width: 162px; 
+  }
+  #sidebar{
+    width: 260px;
+  }
+  .item{
+    font-weight: 300;
+    color: #c38df5;
+  }
+  .second_item{
+    font-weight: 700;
+    color: #d11d1d;
+  }
+  .right_section_category span{
+    padding-left: 30px;
+    color: gray;
+    font-weight: 100;
+    font-size: 15px;
+    width: 20px;
+  }
+  .buy{
+    text-align: center;
+    margin-left: 560px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .main_header{
+    margin: 30px 0px 30px 20px;
+    color: grey;
+  }
+  .category_header{
+    padding: 5px 5px 15px 25px;
+    background-color: orangered;
+    margin: 0px;
+    color: white;
+  }
+  .category_header1{
+    padding: 5px 5px 15px 25px;
+    background-color: orangered;
+    margin: 0px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+  .filter{
+    margin-right: 100px !important;
+    margin-top: 20px;
+  }
+  .container-fluid{
+    padding-left: 25px !important;
+  }
+  .category_buy{
+    display: flex;
+  }
+  .categories_container1{
+    height: 140px;
+    color: white;
+    font-weight: 400;
+    width: 1260px;
+    background-color: orange;
+    text-align: center;
+    margin-left: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+  .categories_container3{
+    text-align: left;
+    margin-left: 1px;
+  }
+  .home_category{
+    color: white;
+  }
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  .flip-card-front {
+    color: black;
+  }
+  .flip-card-back {
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .card:hover .card-body {
+    transform: rotateY(180deg);
+  }
+  .card-body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .card-body .flip-card-front h5{
+    margin-top: 200px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    width: 203px;
+    font-weight: 800;
+  }
+  .card-body .flip-card-back h5{
+    margin-top: 170px;
+    margin-left: 30px;
+    margin-bottom: 4px;
+  }
+  .card-body .flip-card-back p{
+    margin-bottom: 0px;
+    font-size: 20px;
+    margin-left: 40px;
+    font-weight: 700;
+    background-color: #555;
+    border-radius: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .card_category{
+    height: 250px;
+    width: 250px;
+    background-image: url(/images/images/skin\ care\ category.jpg);
+    background-position: 50%;
+    background-color: transparent;
+    perspective: 1000px;
+  }
+  .card_category:hover{
+    opacity: 0.85;
+    background-color: transparent;
+  }
+  .card_category2:hover{
+    opacity: 0.8;
+    background-color: transparent;
+  }
+  .card_category4:hover{
+    opacity: 0.8;
+    background-color: transparent;
+  }
+  .card_category5:hover{
+    opacity: 0.8;
+    background-color: transparent;
+  }
+  .card_category6:hover{
+    opacity: 0.8;
+    background-color: transparent;
+  }
+  .card_category7:hover{
+    opacity: 0.8;
+    background-color: transparent;
+  }
+  .card_category8:hover{
+    opacity: 0.8;
+    background-color: transparent;
+  }
+  .card_category9:hover{
+    opacity: 0.8;
+    background-color: transparent;
+  }
+  .card_category10:hover{
+    opacity: 0.8;
+    background-color: transparent;
+  }
+  .card_category11:hover{
+    opacity: 0.8;
+    background-color: transparent;
+  }
+  .card_category12:hover{
+    opacity: 0.8;
+    background-color: transparent;
+  }
+  .card_category13:hover{
+    opacity: 0.8;
+    background-color: transparent;
+  }
+  .card_category14:hover{
+    opacity: 0.8;
+    background-color: transparent;
+  }
+  .card_category3:hover{
+    opacity: 0.85;
+    background-color: transparent;
+  }
+  .card_category1:hover{
+    opacity: 0.85;
+    background-color: transparent;
+  }
+  .card_category1{
+    height: 250px;
+    width: 250px;
+    background-image: url(/images/images/beauty\ category.webp);
+    background-position: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  .card_category2{
+    height: 250px;
+    width: 250px;
+    background-image: url(/images/images/hair\ category.jpg);
+    background-position: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  .card_category3{
+    height: 250px;
+    width: 250px;
+    background-image: url(/images/images/body\ category.jpg);
+    background-position: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  .card_category4{
+    height: 250px;
+    width: 250px;
+    background-image: url(/images/images/oral\ category.jpg);
+    background-position: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  .card_category5{
+    height: 250px;
+    width: 250px;
+    background-image: url(/images/images/sun\ category.webp);
+    background-position: 50%;
+  }
+  .card_category6{
+    height: 250px;
+    width: 250px;
+    background-image: url(/images/images/man\ category.jpg);
+    background-position: 50%;
+  }
+  .card_category7{
+    height: 250px;
+    width: 250px;
+    background-image: url(/images/images/sexual\ category.jpg);
+    background-position: 50%;
+  }
+  .card_category8{
+    height: 250px;
+    width: 250px;
+    background-image: url(/images/images/diet\ category.webp);
+    background-position: 50%;
+  }
+  .card_category9{
+    height: 250px;
+    width: 250px;
+    background-image: url(/images/images/vitamins\ category.jpg);
+    background-position: 50%;
+  }
+  .card_category10{
+    height: 250px;
+    width: 250px;
+    background-image: url(/images/images/headache\ category.jpg);
+    background-position: 50%;
+  }
+  .card_category11{
+    height: 250px;
+    width: 250px;
+    background-image: url(/images/images/medications\ category.jpg);
+    background-position: 50%;
+  }
+  .card_category12{
+    height: 250px;
+    width: 250px;
+    background-image: url(/images/images/cold\ category.webp);
+    background-position: 50%;
+  }
+  .card_category13{
+    height: 250px;
+    width: 250px;
+    background-image: url(/images/images/natural\ category.jpeg);
+    background-position: 50%;
+  }
+  .card_category14{
+    height: 250px;
+    width: 250px;
+    background-image: url(/images/images/accesories\ category.jpg);
+    background-position: 50%;
+  }
+  .categories_container a{
+    margin: 0px !important;
+    padding: 0px !important;
+    height: 250px;
+    width: 250px;
+  }
+  .card_category15{
+    height: 250px;
+    width: 240px;
+    background-image: url(/images/images/makeup\ remover.webp);
+    background-position: 50%;
+  }
+  .card_category16{
+    height: 250px;
+    width: 240px;
+    background-image: url(/images/images/acne\ category.webp);
+    background-position: 50%;
+  }
+  .card_category17{
+    height: 250px;
+    width: 240px;
+    background-image: url(/images/images/lip\ category.webp);
+    background-position: 50%;
+  }
+  .card_category18{
+    height: 250px;
+    width: 240px;
+    background-image: url(/images/images/scars\ category.webp);
+    background-position: 50%;
+  }
+  .card_category19{
+    height: 250px;
+    width: 240px;
+    background-image: url(/images/images/facial\ massage\ category.webp);
+    background-position: 50%;
+  }
+  .card_category20{
+    height: 250px;
+    width: 240px;
+    background-image: url(/images/images/antiaging\ category.webp);
+    background-position: 50%;
+  }
+  .card_category21{
+    height: 250px;
+    width: 240px;
+    background-image: url(/images/images/eye\ cream\ category.webp);
+    background-position: 50%;
+  }
+  .card_category22{
+    height: 250px;
+    width: 240px;
+    background-image: url(/images/images/whiting\ category.webp);
+    background-position: 50%;
+  }
+  .card_category23{
+    height: 250px;
+    width: 240px;
+    background-image: url(/images/images/cleanser\ category.webp);
+    background-position: 50%;
+  }
+  .card_category24{
+    height: 250px;
+    width: 240px;
+    background-image: url(/images/images/moisturizer\ category.webp);
+    background-position: 50%;
+  }
+  .card_category25{
+    height: 250px;
+    width: 240px;
+    background-image: url(/images/images/toner\ category.webp);
+    background-position: 50%;
+  }
+  .card_category26{
+    height: 250px;
+    width: 240px;
+    background-image: url(/images/images/mask\ category.webp);
+    background-position: 50%;
+  }
+  .card_category27{
+    height: 250px;
+    width: 240px;
+    background-image: url(/images/images/sun\ category.webp);
+    background-position: 50%;
+  }
+  .shad{
+    transition: all 1s;
+  }
+  .shad:hover{
+    box-shadow: 5px 5px 5px orangered;
+    opacity: 0.75;
+    zoom: 1.01;
+  }
+  .dropdown-item:hover{
+    border-radius: 5px;
+  }
+  .card_product{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+  }
+  .checked {
+    color: orange;
+  }
+  .heart{
+    padding-left: 30px;
+  }
